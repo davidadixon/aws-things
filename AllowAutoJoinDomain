@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:DescribeAssociations",
+                "ssm:ListAssociations",
+                "ssm:GetDocument",
+                "ssm:UpdateAssociationStatus",
+                "ds:CreateComputer",
+                "ec2:DescribeInstanceStatus"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
